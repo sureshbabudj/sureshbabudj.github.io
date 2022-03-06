@@ -1,0 +1,24 @@
+@import url("https://github.com/necolas/normalize.css/blob/master/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+html,
+body {
+  font-family: "Bree Serif", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #00bcd4;
+}
+
+.intro {
+  text-align: center;
+}
